@@ -1,3 +1,5 @@
+import pygame
+
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
 
@@ -15,3 +17,8 @@ PLAYER_SHOOT_COOLDOWN = 0.3
 SHOT_RADIUS = 5
 
 white = (255, 255, 255)
+
+updatable = pygame.sprite.Group()
+drawable = pygame.sprite.Group()
+asteroids = pygame.sprite.Group()
+shots = pygame.sprite.Group()
